@@ -1,0 +1,25 @@
+p{
+    padding: spx;
+    width: 200px;
+    margin: 10px;
+    border: 2px #000000 solid;
+    background-color: #ffffff;
+}
+p.one{
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+p.two{
+    z-index: 1;
+    left: 150px;
+    top: 25px;
+    position: absolute;
+}
+p.three{
+    z-index: 2;
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}

@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Structuring Forms with fieldset and legend Elements</title>
+    </head>
+    <body>
+        <form action="http://www.example.org/competition.aspx" method="POST" name="frmComp">
+            <fieldset>
+                <legend accesskey="c"><em><u>C</u>ontact Information</em></legend>
+                <p><label>First Name: <input type="text" name="txtFirstName" size="20" required autocomplete="off"></label></p> 
+                <p><label>Last Name: <input type="text" name="txtLastName" size="20" required autocomplete="off"></label></p> 
+                <p><label>Email: <input type="email" name="emailUemail" size="20" required autocomplete="off"></label></p> 
+            </fieldset>
+            <fieldset>
+                <legend><em>Competition Question</em></legend>
+                <p>How tall is the Eiffel Tower in Paris, France?</p> 
+                <label><input type="radio" name="radAnswer" value="584" required>584ft</label> <br>
+                <label><input type="radio" name="radAnswer" value="784">784ft</label> <br>
+                <label><input type="radio" name="radAnswer" value="984">984ft</label> <br>
+                <label><input type="radio" name="radAnswer" value="1184">1184ft</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend accesskey="t"><em><u>T</u>iebreaker Question</em></legend>
+                <label><p>In 25 words or less, say why you would like to win $10,000: </p>
+                    <textarea name="txtAnswer" rows="30" cols="68" placeholder="Enter Text Here.."></textarea> <br>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><em>Enter competition</em></legend>
+                <input type="submit" value="Enter Competition"><br>
+            </fieldset>
+        </form>
+        <hr>
+        <form action="http://www.example.com/tabbing.aspx" method="get" name="frmTabExample">
+            <input type="checkbox" name="chkNumber" value="1" tabindex="3"> One<br>
+            <input type="checkbox" name="chkNumber" value="2" tabindex="7"> Two<br>
+            <input type="checkbox" name="chkNumber" value="3" tabindex="4"> Three<br>
+            <input type="checkbox" name="chkNumber" value="4" tabindex="1"> Four<br>
+            <input type="checkbox" name="chkNumber" value="5" tabindex="9"> Five<br>
+            <input type="checkbox" name="chkNumber" value="6" tabindex="6"> Six<br>
+            <input type="checkbox" name="chkNumber" value="7" tabindex="10"> Seven<br>
+            <input type="checkbox" name="chkNumber" value="8" tabindex="2"> Eight<br>
+            <input type="checkbox" name="chkNumber" value="9" tabindex="8"> Nine<br>
+            <input type="checkbox" name="chkNumber" value="10" tabindex="5"> Ten<br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+        <form action="http://www.example.com/login.aspx" method="get">
+            <p>Username:
+            <input type="text" name="txtUsername" value="" size="20" maxlength="20" autocomplete="off"></p>
+            <p>Password:
+            <input type="password" name="pwdPassword" value="" size="20" maxlength="20" autocomplete="off"></p>
+            <p><input type="submit" value="Login"></p>
+        </form>
+    </body>
+</html>

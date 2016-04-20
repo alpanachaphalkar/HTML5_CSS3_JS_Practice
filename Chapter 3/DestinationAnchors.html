@@ -1,0 +1,99 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Destination Anchors</title>
+    </head>
+    <body>
+        <h1 id="Top">Links and Navigation</h1>
+        <nav>
+            <ul>
+                <li><a href="#URL">URLs</a></li>
+                <li><a href="#SourceAnchors">Source Anchors</a></li>
+                <li><a href="#DestinationAnchors">Destination Anchors</a></li>
+                <li><a href="#Examples">Examples</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <h2 id="URL">URLs</h2>
+        <p>
+            A Uniform Resource Locator, or URL, specifies where you can find a resource on the web; you are probably most used to thinking of them as web addresses.
+        </p>
+        <p> 
+            As you move around the web, you see the URL of each web page in the address bar of your browser.
+        </p>
+        <p>
+            If you look at the example URL in Figure 3-6, there are three key parts to the URL: the scheme, the host address, and the filepath.
+        </p>
+        <p>
+            The scheme identifies the way a file transmits. 
+        </p>
+        <p> 
+            Most web pages use something called the HyperText Transfer Protocol (HTTP) to pass information to you, which is why most web pages start with http:// . 
+       </p>
+        <p>
+            Although you might have noticed other prefixes such as https:// when doing banking online (which is a more secure form of http) or ftp:// when downloading large files.
+        </p>
+        <p><a href="#Top">Back to Top</a></p>
+        <br>
+        <br>
+        <h2 id="SourceAnchors">Source Anchors</h2>
+        <p>
+            The source anchor is what most people think of when talking about links on the web—whether the link contains text or an image. 
+        </p>
+        <p>
+            It is something you can click expecting to be taken somewhere else.
+        </p>
+        <p>
+            As you have already seen, any text contained between the opening a tag and closing a tag forms part of the link that a user can click.
+        </p>
+        <p> 
+            The URL the user should be taken to is specified as the value of the href attribute.
+        </p>
+        <p>You need to specify a destination anchor only if you want to link to a specific part of a page, as described in the next section.</p>
+        <p><a href="#Top">Back to Top</a></p>
+        <br>
+        <br>
+        <h2 id="DestinationAnchors">Destination Anchors</h2>
+        <p>
+            If you have a long web page, you might want to link to a specific part of that page to save the user from having to scroll up and down the page 
+            to find the relevant part.
+        </p>
+        <p>
+            The destination anchor enables the page author to mark specific points in a page that a source anchor can point to.
+        </p>
+        <p>
+            You create a destination anchor using the a element again, but when it acts as a destination anchor rather than using an href attribute, you use the id attribute.
+        </p>
+        <p>
+            If you look at the source code of some older web pages, you may see a name attribute used as well, or even instead of the id attribute.
+        </p>
+        <p>
+            You may remember from Chapter 1 that the name and id attri-butes were two of the universal attributes that most elements can carry.
+        </p>
+        <p>The id attribute is now the preferred way to create a destination anchor, but it was introduced only in version 4 of HTML, and the name 
+            attribute was used to perform the same function in previous versions.
+        </p>
+        <p><a href="#Top">Back to Top</a></p>
+        <br>
+        <br>
+        <h2 id="Examples">Examples</h2>
+        <p>
+            If you look at the source code of some older web pages, you may see a name attribute used as well, or even instead of the id attribute.
+        </p>
+        <p> 
+            You may remember from Chapter 1 that the name and id attributes were two of the universal attributes that most elements can carry.</p>
+        <p>
+            The id attribute is now the preferred way to create a destination anchor, but it was introduced only in version 4 of HTML, and the name attribute was 
+            used to perform the same function in previous versions.
+        </p>
+        <p>
+            By way of example, imagine that you have a long page with a main heading and several subheadings.
+        </p>
+        <p> 
+            The whole page does not fit on the screen at once, forcing the user to scroll, so you want to add links at the top of the page that take readers directly 
+            to each of the section headings on that page.
+        </p>
+        <p><a href="#Top">Back to Top</a></p>
+    </body>
+</html>

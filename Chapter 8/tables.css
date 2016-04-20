@@ -1,0 +1,33 @@
+body{
+    color: #000000;
+    background-color: #ffffff;
+}
+table{
+    background-color: #efefef;
+    width: 350px;
+    font-family: Arial, Verdana, sans-serif;
+    border: solid 1px #999999;
+}
+caption{
+    font-weight: bold;
+    text-align: left;
+    border: #000000 1px solid;
+    color: #666666;
+    padding: 3px;
+}
+th{
+    height: 50px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #cccccc
+}
+td, th{
+    padding: 5px;
+}
+td.code{
+    font-family: Courier New, Courier, serif;
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}

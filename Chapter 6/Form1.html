@@ -1,0 +1,60 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Basic Search Engine Form</title>
+    </head>
+    <body>
+        <form action="http://www.example.org/search.aspx" method="GET">
+            <h3>Search the site</h3>
+            <input type="text" name="searchTxtBox">
+            <input type="submit" value="Search">
+        </form>
+        <hr>
+         <form action="http://www.example.org/search.aspx" method="GET" name="frmSearch">
+            <p>Search:
+            <input type="text" name="txtSearch" value="Search for" size="20" maxlength="64">
+            <input type="submit" value="Submit"></p>
+         </form>
+         <hr>
+         <form action="http://www.example.org/login.asp" method="POST" name="frmLogin">
+            <p>Login Credentials</p>
+            <p>Domain: <input type="text" name="txtDomain" value="srhk\" disabled></p>         
+            <p>Username: <input type="text" name="txtUsername" size="20" maxlength="20" required autocomplete="off"></p>
+            <p>Password: <input type="password" name="pwdPassword" size="20" maxlength="20" required></p>
+            <input type="submit" value="Login"></p>
+         </form>
+         <hr>
+         <form action="http://www.example.org/feedback.asp" method="POST" name="frmFeedback">
+            <p>Please tell us what you think of the site and then click submit:</p> 
+            <textarea name="txtFeedback" rows="20" cols="60">Enter your feedback here.</textarea>
+            <p><input type="submit" value="Submit"></p>
+         </form>
+         <hr>
+         <form action="http://www.example.org/feedback.asp" method="POST" name="frmInputTypes">
+             <p>
+                 <input type="range" name="Points" max="100" min="0" step="5">
+             </p>
+
+             <p>
+                 <input type="radio" name="Op1" required> Male 
+             </p>
+             <p>
+                 <input type="radio" name="Op1"> Female
+             </p>
+             <p>
+                 <input type="radio" name="Op1"> Private
+             </p>
+
+             <p>
+                 <input type="checkbox" name="Chk1">Apples
+                 <input type="checkbox" name="Chk2">Oranges
+                 <input type="checkbox" name="Chk3">Mangoes
+             </p>
+             <p> *<input type="file" name="Image" required accept="application/pdf"> </p>
+             <p>Name:
+                 <input type="text" name="txtNameFormat" size="20" maxlength="60" placeholder="Alpana Chaphalkar">
+             </p>
+             <p> <input type="submit" value="Submit"> </p>
+         </form>
+    </body>
+</html>

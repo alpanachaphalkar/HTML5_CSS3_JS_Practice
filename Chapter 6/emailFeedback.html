@@ -1,0 +1,21 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Reply to Ad</title>
+    </head>
+    <body>
+        <h1>Reply to Ad</h1>
+        <p>Use the following form to respond to the Ad</p>
+        <form action="https://www.google.de/" method="GET">
+            <label for="emailToSeller">To</label> <br>
+            <input type="text" name="txtEmailToSeller" id="emailToSeller" value="Star Seller" size="20" readonly> <br><br>
+            <label for="emailToRecipient">To</label> <br>
+            <input type="email" name="emailRecipient" id="emailToRecipient" size="20" maxlength="250" required autocomplete="off"><br><br>
+            <label for="emailSubject">Subject</label> <br>
+            <input type="text" name="txtEmailSubject" id="emailSubject" size="20" max="500" required autocomplete="off"> <br><br> 
+            <label for="emailBody">Body</label> <br>
+            <textarea name="txtEmailBody" id="emailBody" rows="8" cols="53" placeholder="Enter Text Here..."></textarea> <br><br> 
+            <input type="submit" value="Send Email">
+        </form>    
+    </body>
+</html>

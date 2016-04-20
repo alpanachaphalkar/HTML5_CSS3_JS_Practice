@@ -1,0 +1,19 @@
+div p{
+    max-width: 150px;
+    max-height: 250px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px #000000 solid;
+}
+p.one{
+    overflow: hidden;
+}
+p.two{
+    overflow: scroll;
+}
+body{
+    border: 10px solid #0077cc;
+    margin: 15px;
+    padding: 20px;
+    width: 900px;
+}

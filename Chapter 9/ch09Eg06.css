@@ -1,0 +1,30 @@
+#container{
+    background-color: #fe57a1;
+    width: 940;
+    height: 200;
+    padding: 10px;
+    -webkit-column-width: 450px;
+    -webkit-column-gap: 15px;
+    -moz-column-width: 450px;
+    -moz-column-gap: 15px;
+    column-width: 450px;
+}
+@media screen and (max-width: 999px){
+    #container{
+        width: 740px;
+        background-color: #b3d4fc;
+        -webkit-column-width: 350px;
+        -webkit-column-gap: 15px;
+        -moz-column-width: 350px;
+        -moz-column-gap: 15px;
+        column-width: 350px;
+        column-gap: 15px;
+    }
+}
+@media screen and (max-width: 480px){
+    #container{
+        width: 400px;
+        height: 400px;
+        background-color: #ffcc00;
+    }
+}

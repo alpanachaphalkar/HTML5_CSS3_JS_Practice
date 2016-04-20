@@ -1,0 +1,50 @@
+/* style sheet for Creative Cafe */
+body{
+    font-family: Arial, Verdana, sans-serif;
+}
+h2{
+    font-family: Georgia, Times, serif;
+    color: #666666;
+}
+p{
+    font-size: 90%;
+    color: #333333;
+}
+#navigation a{
+    color: #3399cc;
+    text-decoration: none;
+}
+#menuNavigation a{
+    color: #8800aa;
+    text-decoration: none;
+}
+small>a{
+    color: #4400cc;
+    text-decoration: none;
+}
+ul a{
+    font-weight: bold;
+    text-decoration: none;
+}
+table{
+    background-color: #d0d0d0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #494949
+}
+th{
+    background-color: #a1a2a3;
+    font-weight: bold;
+}
+table td, table th{
+    text-align: center;
+    padding: 10px;
+}
+caption{
+    color: #4545bb;
+    font-style: italic;
+}
+#contactUs a{
+    text-decoration: none;
+    color: #00aa33;
+}

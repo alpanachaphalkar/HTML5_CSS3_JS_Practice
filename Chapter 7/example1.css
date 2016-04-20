@@ -1,0 +1,33 @@
+/* Style sheet for cssExample1.html */
+body{
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+}
+table{
+    background-color: #e5e5e5;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+th{
+    background-color: #cccccc;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 15px;
+}
+td{
+    padding: 5px;
+    font-size: 14px;
+}
+td.code{
+    font-weight: bold;
+    font-family: "Courier New", Courier, serif;
+}

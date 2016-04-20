@@ -1,0 +1,8 @@
+body, h1, p, b, img{
+    border: solid #3032a3 3px;
+    border-bottom-color: #2aa70f;
+    padding: 2px;
+}
+h1, b{
+    background-color: #afafaf;
+}

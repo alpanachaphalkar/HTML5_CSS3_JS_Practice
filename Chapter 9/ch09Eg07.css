@@ -1,0 +1,25 @@
+div{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+}
+#rotate{
+    background-color: #00ffcc;
+    top: 100px;
+    left: 50px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+#scale{
+    background-color: #ccff00;
+    top: 400px;
+    left: 50px;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+}

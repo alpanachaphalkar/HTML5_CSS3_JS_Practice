@@ -1,0 +1,18 @@
+div.page{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border: 2px solid #000000;
+    padding: 65px;
+}
+p{
+    background-color: #ffffff;
+    width: 200px;
+    padding: 10x;
+    border: 2px solid #000000;
+}
+p.two{
+  position: absolute;
+  left: 50px;
+  top: -25px;  
+}

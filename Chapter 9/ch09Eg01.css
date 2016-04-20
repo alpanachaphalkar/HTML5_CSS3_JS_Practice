@@ -1,0 +1,28 @@
+a[href ^= "https"]{
+    color: red;
+}
+a[href $= "org/"]{
+    color: purple;
+}
+input:disabled{
+    border: 2px solid black;
+}
+p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+}
+p:first-child{
+    font-size: 125%;
+}
+p:nth-child(3){
+    color: #006699;
+}
+div:empty{
+    height: 100px;
+    width: 200px;
+    background: hotpink;
+}
+div ~ p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: rgb(100, 200, 130);
+}

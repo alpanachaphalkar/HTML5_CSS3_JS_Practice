@@ -1,0 +1,10 @@
+/*body{
+    background-color: #cccccc;
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+body{
+    background: #cccccc url("images/background.gif") no-repeat center fixed;
+}

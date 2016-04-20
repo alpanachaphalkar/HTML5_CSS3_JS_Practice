@@ -1,0 +1,8 @@
+@import "codeStyles.css";
+body{
+    background-color: #ffffff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+h1{
+    font-size: 24pt;
+}

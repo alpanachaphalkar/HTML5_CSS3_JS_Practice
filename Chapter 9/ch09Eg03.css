@@ -1,0 +1,7 @@
+.opacity{
+    background-color: #ff0000;
+    opacity: 0.5;
+}
+.hsla{
+    background-color: hsla(0, 100%, 50%, 0.5);
+}

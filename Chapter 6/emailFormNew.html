@@ -1,0 +1,56 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Email Form</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a message to Creative Cafe</p>
+        <form action="https://www.google.de/" method="POST">
+            
+                <fieldset>
+                    <legend><em>Your Message</em></legend>
+                    <table>
+                    <tr>
+                        <td><label for="emailTo">To</label></td>
+                        <td><input type="text" name="txtEmailTo" id="emailTo" size="20" value="Creative Cafe" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailFrom">Your email</label></td>
+                        <td><input type="email" name="emailEmail" id="emailFrom" size="20" maxlength="250" tabindex="1" required autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailBody">Message</label></td>
+                        <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" placeholder="Enter text here" tabindex="2"></textarea></td>
+                    </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><em>How you found us:</em></legend>
+                    <table>
+                    <tr>
+                        <td><label for="emailBody">How did you hear of us?</label></td>
+                        <td>
+                            <select name="selReferrer">
+                                <option value="google">Google</option>
+                                <option value="ad">Newspaper</option>
+                                <option value="friend">Friend</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="newsletterSignup">Newsletter</label></td>
+                        <td>
+                            <input type="checkbox" checked name="chkSubscription" id="newsletterSignup">
+                            Ensure this box is checked if you would like to receive email updates
+                        </td>
+                    </tr>
+                </table>
+              </fieldset>
+            <br>
+            <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>

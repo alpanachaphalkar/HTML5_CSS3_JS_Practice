@@ -1,0 +1,15 @@
+li.a, li.b, li.c{
+    list-style-type: circle;
+}
+li.d, li.e, li.f{
+    list-style-type: decimal-leading-zero;
+}
+li.g, li.h, li.i{
+    list-style-type: lower-roman;
+}
+li.j, li.k, li.l{
+    list-style-type: lower-greek;
+}
+li{
+    padding: 5px;
+}
